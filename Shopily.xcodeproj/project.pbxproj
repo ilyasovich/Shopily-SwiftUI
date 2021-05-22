@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3ABF723D264B44AD009DC980 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABF723C264B44AD009DC980 /* TabBar.swift */; };
 		3ACCC86A263BDCBD00BD64B1 /* ShopilyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCC869263BDCBD00BD64B1 /* ShopilyApp.swift */; };
 		3ACCC86C263BDCBD00BD64B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCC86B263BDCBD00BD64B1 /* ContentView.swift */; };
 		3ACCC86E263BDCC000BD64B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACCC86D263BDCC000BD64B1 /* Assets.xcassets */; };
 		3ACCC871263BDCC000BD64B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACCC870263BDCC000BD64B1 /* Preview Assets.xcassets */; };
 		3ACCC87C263BDCC000BD64B1 /* ShopilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCC87B263BDCC000BD64B1 /* ShopilyTests.swift */; };
 		3ACCC887263BDCC000BD64B1 /* ShopilyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCC886263BDCC000BD64B1 /* ShopilyUITests.swift */; };
+		3ACCC898263BDDBB00BD64B1 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCC897263BDDBB00BD64B1 /* Items.swift */; };
+		3ACCC8A3263BDFDF00BD64B1 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCC8A2263BDFDF00BD64B1 /* TabButton.swift */; };
+		3ACCC8A8263BDFF100BD64B1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCC8A7263BDFF100BD64B1 /* CardView.swift */; };
+		3ACCC8AD263BDFFE00BD64B1 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCC8AC263BDFFE00BD64B1 /* Details.swift */; };
+		3ACCC8B5263BE11200BD64B1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCC8B4263BE11200BD64B1 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3ABF723C264B44AD009DC980 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		3ACCC866263BDCBD00BD64B1 /* Shopily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACCC869263BDCBD00BD64B1 /* ShopilyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopilyApp.swift; sourceTree = "<group>"; };
 		3ACCC86B263BDCBD00BD64B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +52,11 @@
 		3ACCC882263BDCC000BD64B1 /* ShopilyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopilyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACCC886263BDCC000BD64B1 /* ShopilyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopilyUITests.swift; sourceTree = "<group>"; };
 		3ACCC888263BDCC000BD64B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACCC897263BDDBB00BD64B1 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		3ACCC8A2263BDFDF00BD64B1 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		3ACCC8A7263BDFF100BD64B1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3ACCC8AC263BDFFE00BD64B1 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		3ACCC8B4263BE11200BD64B1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				3ACCC869263BDCBD00BD64B1 /* ShopilyApp.swift */,
+				3ACCC89C263BDDC400BD64B1 /* Model */,
+				3ACCC89D263BDDD200BD64B1 /* View */,
 				3ACCC86B263BDCBD00BD64B1 /* ContentView.swift */,
+				3ACCC89E263BDDDB00BD64B1 /* Controller */,
 				3ACCC86D263BDCC000BD64B1 /* Assets.xcassets */,
 				3ACCC872263BDCC000BD64B1 /* Info.plist */,
 				3ACCC86F263BDCC000BD64B1 /* Preview Content */,
@@ -128,6 +143,33 @@
 				3ACCC888263BDCC000BD64B1 /* Info.plist */,
 			);
 			path = ShopilyUITests;
+			sourceTree = "<group>";
+		};
+		3ACCC89C263BDDC400BD64B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3ACCC897263BDDBB00BD64B1 /* Items.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3ACCC89D263BDDD200BD64B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3ACCC8B4263BE11200BD64B1 /* Home.swift */,
+				3ABF723C264B44AD009DC980 /* TabBar.swift */,
+				3ACCC8A2263BDFDF00BD64B1 /* TabButton.swift */,
+				3ACCC8A7263BDFF100BD64B1 /* CardView.swift */,
+				3ACCC8AC263BDFFE00BD64B1 /* Details.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3ACCC89E263BDDDB00BD64B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +302,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ACCC86C263BDCBD00BD64B1 /* ContentView.swift in Sources */,
+				3ACCC8A3263BDFDF00BD64B1 /* TabButton.swift in Sources */,
+				3ACCC8AD263BDFFE00BD64B1 /* Details.swift in Sources */,
+				3ABF723D264B44AD009DC980 /* TabBar.swift in Sources */,
+				3ACCC898263BDDBB00BD64B1 /* Items.swift in Sources */,
 				3ACCC86A263BDCBD00BD64B1 /* ShopilyApp.swift in Sources */,
+				3ACCC8A8263BDFF100BD64B1 /* CardView.swift in Sources */,
+				3ACCC8B5263BE11200BD64B1 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
